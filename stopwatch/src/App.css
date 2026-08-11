@@ -1,0 +1,35 @@
+.stopwatch-card {
+  background-color: lightgreen;
+  padding: 50px 100px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin: 40px auto;
+  width: fit-content;
+}
+
+.time-display {
+  background-color: black;
+  color: lightgreen;
+  font-family: 'Courier New';
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 20px 40px;
+  border-radius: 20px; 
+  text-align: center;
+}
+
+.button-group {
+  display: flex;
+  gap: 25px;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 20px;
+}
